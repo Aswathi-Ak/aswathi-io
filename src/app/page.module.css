@@ -90,6 +90,17 @@ a.secondary {
   min-width: 158px;
 }
 
+.pillList {
+  display: flex;
+  gap: 8px;
+}
+
+.pill {
+  padding: 4px 8px;
+  border-radius: 8px;
+  background-color: var(--gray-alpha-200);
+}
+
 .footer {
   grid-row-start: 3;
   display: flex;
